@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="fblogin" />
+  <meta property="og:description" content="Facebook login" />
+
+  <title>fblogin</title>
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1333557593349641";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+
+  <div id="app">{{ html|safe }}</div>
+  <script src="/js/vendor.js"></script>
+  <script src="/js/vendor.bundle.js"></script>
+  <script src="/js/bundle.js"></script>
+</body>
+</html>
