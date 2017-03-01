@@ -2,7 +2,7 @@
   "name": "fblogin",
   "version": "1.0.0",
   "description": "FB login impl",
-  "repository": "git://...",
+  "repository": "https://github.com/yermbiz/fblogin",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
