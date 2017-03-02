@@ -10,6 +10,7 @@ Basic skeleton of a react/flux web app for FB based login
 - nodemon
 
 # Run
+Run `gulp` to generate public files.
 
 Run command `npm start` in terminal and open `localhost:3000` in browser.
 
